@@ -1,0 +1,4 @@
+category: Perl Devel
+requires: cygwin gcc-core perl
+sdesc: "Compile and link C code for Perl modules"
+ldesc: "Compile and link C code for Perl modules"

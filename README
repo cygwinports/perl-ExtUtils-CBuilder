@@ -1,0 +1,84 @@
+perl-ExtUtils-CBuilder
+-------------------------------------------
+Compile and link C code for Perl modules.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gcc-core
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
+  perl-5.8.7-5
+  perl-Module-Build-0.2807-1
+
+Canonical homepage:
+  http://search.cpan.org/~kwilliams/ExtUtils-CBuilder/
+
+Canonical download:
+  http://www.cpan.org/authors/id/K/KW/KWILLIAMS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-ExtUtils-CBuilder-0.19-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-ExtUtils-CBuilder-0.19-1.cygport all
+
+This will create:
+  /usr/src/perl-ExtUtils-CBuilder-0.19-1-src.tar.bz2
+  /usr/src/perl-ExtUtils-CBuilder-0.19-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Base.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/Unix.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/VMS.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/Windows.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/aix.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/cygwin.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/darwin.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/dec_osf.pm
+  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/os2.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/ExtUtils/CBuilder/.packlist
+  /usr/share/doc/Cygwin/perl-ExtUtils-CBuilder-0.19.README
+  /usr/share/doc/perl-ExtUtils-CBuilder-0.19/Changes
+  /usr/share/doc/perl-ExtUtils-CBuilder-0.19/INSTALL
+  /usr/share/man/man3/ExtUtils.CBuilder.3pm.gz
+  /usr/share/man/man3/ExtUtils.CBuilder.Platform.Windows.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.19-1 -----
+Version bump.
+
+----- version 0.18-1 -----
+Version bump.
+Source package is now cygport driven.
+
+----- version 0.15-1 -----
+Version bump.
+
+----- version 0.14-1 -----
+Version bump.
+
+----- version 0.13-1 -----
+Version bump.
+
+----- version 0.10-1 -----
+Version bump.
+
+----- version 0.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
