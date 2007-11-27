@@ -5,12 +5,12 @@ Compile and link C code for Perl modules.
 Runtime requirements:
   cygwin-1.5.24-2
   gcc-core
-  perl-5.8.7-5
+  perl-5.8.8-4
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.2.11-1
-  perl-5.8.7-5
+  cygport-0.3.7-1
+  perl-5.8.8-4
   perl-Module-Build-0.2807-1
 
 Canonical homepage:
@@ -22,15 +22,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-ExtUtils-CBuilder-0.19-1-src.tar.bz2
+  unpack perl-ExtUtils-CBuilder-0.21-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-ExtUtils-CBuilder-0.19-1.cygport all
+  cygport ./perl-ExtUtils-CBuilder-0.21-1.cygport all
 
 This will create:
-  /usr/src/perl-ExtUtils-CBuilder-0.19-1-src.tar.bz2
-  /usr/src/perl-ExtUtils-CBuilder-0.19-1.tar.bz2
+  /usr/src/perl-ExtUtils-CBuilder-0.21-1-src.tar.bz2
+  /usr/src/perl-ExtUtils-CBuilder-0.21-1.tar.bz2
 
 -------------------------------------------
 
@@ -47,15 +47,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/dec_osf.pm
   /usr/lib/perl5/vendor_perl/5.8/ExtUtils/CBuilder/Platform/os2.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/ExtUtils/CBuilder/.packlist
-  /usr/share/doc/Cygwin/perl-ExtUtils-CBuilder-0.19.README
-  /usr/share/doc/perl-ExtUtils-CBuilder-0.19/Changes
-  /usr/share/doc/perl-ExtUtils-CBuilder-0.19/INSTALL
+  /usr/share/doc/Cygwin/perl-ExtUtils-CBuilder-0.21.README
+  /usr/share/doc/perl-ExtUtils-CBuilder-0.21/Changes
+  /usr/share/doc/perl-ExtUtils-CBuilder-0.21/INSTALL
   /usr/share/man/man3/ExtUtils.CBuilder.3pm.gz
   /usr/share/man/man3/ExtUtils.CBuilder.Platform.Windows.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.21-1 -----
+Version bump.
 
 ----- version 0.19-1 -----
 Version bump.
